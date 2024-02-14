@@ -5,7 +5,7 @@ LABEL description   The CLI for Ansible AWX / Tower, made easily available in a 
 
 ENV AWX_CLI_GID                   1000
 ENV AWX_CLI_UID                   1000
-ENV AWX_CLI_VIRTUAL_ENVIRONMENT		awxvenv
+ENV AWX_CLI_VIRTUAL_ENVIRONMENT   awxvenv
 ENV AWX_CLI_WORK_DIR              /opt/awx-cli
 
 ENV AWX_KIT_VERSION               23.8.0
