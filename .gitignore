@@ -1,0 +1,100 @@
+######################
+# Eclipse
+######################
+*~.nib
+*.bak
+*.pydevproject
+*.swp
+*.tmp
+.classpath
+.externalToolBuilders/**
+.factorypath
+.loadpath
+.metadata
+.project
+.settings/
+.springBeans
+bin/
+target/
+tmp/
+tmp/**/*
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# STS-specific
+.sts4-cache/*
+
+######################
+# IntelliJ
+######################
+*.ids
+*.iml
+*.ipr
+*.iws
+*.orig
+.idea/
+classes/
+out/
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Gradle
+######################
+.gradle/
+build/
+
+######################
+# Linux
+######################
+*~
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+.apt_generated/
+.apt_generated_tests/
+bin/
+deploy/
+
+######################
+# Logs
+######################
+*.log*
+
+######################
+# Others
+######################
+*.class
+*.*~
+.~lock.*
+.merge_file*
