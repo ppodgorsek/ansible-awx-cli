@@ -5,6 +5,8 @@
 - [What is it?](#what-is-it)
 - [Versioning](#versioning)
 - [Running the container](#running-the-container)
+- [Continuous integration](#continuous-integration)
+  - [Azure DevOps](#azure-devops)
 - [Please contribute!](#please-contribute)
 
 ---
@@ -41,7 +43,11 @@ For example, triggering a job template can be done as follows:
 
 All official AWX CLI arguments can be used. The complete list can be found in [AWX CLI's official documentation](https://docs.ansible.com/ansible-tower/latest/html/towercli/reference.html).
 
+<a name="continuous-integration"></a>
+
 ## Continuous integration
+
+<a name="azure-devops"></a>
 
 ### Azure DevOps
 
