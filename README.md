@@ -39,7 +39,12 @@ For example, triggering a job template can be done as follows:
 
     docker run --rm \
       -t docker.io/ppodgorsek/ansible-awx-cli:latest \
-      awx job_templates launch 'Job name CHANGEME' --conf.host='https://changeme' --conf.token='changeme' --filter=status --monitor -f human
+      awx job_templates launch 'Job name CHANGEME' \
+        --conf.host='https://changeme' \
+        --conf.token='changeme' \
+        --filter=status \
+        --monitor \
+        -f human
 
 All official AWX CLI arguments can be used. The complete list can be found in [AWX CLI's official documentation](https://docs.ansible.com/ansible-tower/latest/html/towercli/reference.html).
 

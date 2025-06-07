@@ -8,7 +8,7 @@ ENV AWX_CLI_UID                   1000
 ENV AWX_CLI_VIRTUAL_ENVIRONMENT   awxvenv
 ENV AWX_CLI_WORK_DIR              /opt/awx-cli
 
-ENV AWX_KIT_VERSION               23.8.0
+ENV AWX_KIT_VERSION               24.6.1
 
 # Python 3.9 is required because AWX needs distutils
 RUN dnf upgrade -y \
